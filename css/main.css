@@ -34,6 +34,31 @@ img {
   display: flex;
 }
 
+@media only screen and (min-width: 25em) {
+
+  .photo:nth-child(2) {
+    display: inline-block;
+  }
+
+  .photo:nth-child(5) {
+    display: inline-block;
+  }
+
+  section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .photo {
+    width: 50%;
+  }
+
+  .photo:nth-child(1) {
+    width: 100%;
+  }
+
+}
+
 @media only screen and (min-width: 38em) {
 
 }
